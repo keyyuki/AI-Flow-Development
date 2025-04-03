@@ -1,0 +1,136 @@
+# 2D Fighting Game Project Tasks
+
+## Current Tasks
+
+- [x] Project Setup
+  - [x] Initialize project with Vite and TypeScript
+  - [x] Configure Tailwind CSS
+  - [x] Set up basic folder structure
+  - [x] Configure asset loading pipeline
+- [x] Game Engine Development
+  - [x] Create game loop with requestAnimationFrame
+  - [x] Implement collision detection system
+  - [x] Create input handling system (keyboard/gamepad)
+  - [x] Implement sprite animation system
+- [x] Character System
+  - [x] Create base character class
+  - [x] Implement animation state machine
+  - [x] Design hitbox/hurtbox system
+  - [x] Create movement and gravity physics
+  - [x] Implement attack system with frame data
+- [x] UI Development
+  - [x] Create health bars
+  - [x] Implement timer system
+  - [x] Design main menu
+  - [x] Create character select screen
+  - [x] Implement pause menu
+  - [x] Add combo counter
+  - [x] Create round indicator
+  - [x] Develop UI manager to control all UI components
+- [x] Game Mechanics
+  - [x] Design combo system
+  - [x] Implement blocking mechanics
+  - [x] Create special move input detection
+  - [x] Design damage scaling
+  - [x] Add round system
+- [ ] Asset Creation/Integration
+  - [ ] Create or source character sprites
+  - [ ] Design background stages
+  - [x] Source sound effects
+  - [x] Find or create background music
+  - [x] Create UI elements
+- [ ] Testing & Balancing
+  - [ ] Test game mechanics
+  - [ ] Balance character stats
+  - [ ] Optimize performance
+  - [ ] Test browser compatibility
+  - [ ] User testing for gameplay feedback
+
+## Completed Tasks
+
+- [x] Initial project planning (Date: DD/MM/YYYY)
+- [x] Setup audio service using Howler.js (Date: Current)
+- [x] Implement GameLoop system with fixed update/variable render (Date: Current)
+- [x] Create asset loading utility for images and audio (Date: Current)
+- [x] Implement input handling system for keyboard and gamepad (Date: Current)
+- [x] Create collision detection system for hitboxes and hurtboxes (Date: Current)
+- [x] Implement sprite animation system with frame timing control (Date: Current)
+- [x] Create base character class with state management (Date: Current)
+- [x] Implement character physics system with gravity and movement (Date: Current)
+- [x] Design hitbox system for fighting game collision detection (Date: Current)
+- [x] Implement attack system with frame data and combos (Date: Current)
+- [x] Create animation state machine for character animations (Date: Current)
+- [x] Complete UI Development (Date: Current)
+  - [x] Create UI component system with base UIComponent class
+  - [x] Implement health bars with damage animation
+  - [x] Create timer with countdown and warning effects
+  - [x] Design button system with hover and click states
+  - [x] Implement main menu with navigation
+  - [x] Create pause menu with resume functionality
+  - [x] Design character select screen with selection logic
+  - [x] Develop UIManager to handle all UI components and screen transitions
+  - [x] Create combo counter with animation effects
+  - [x] Implement round indicator with win tracking
+  - [x] Add round announcements ("Round X, FIGHT!")
+- [x] Design comprehensive combo system (Date: Current)
+  - [x] Create ComboSystem class for tracking combo state
+  - [x] Implement damage scaling for combos
+  - [x] Track combo connections (links, cancels, chains)
+  - [x] Add juggle state tracking
+  - [x] Integrate with UI components
+  - [x] Add unit tests for combo system
+- [x] Implement blocking mechanics (Date: Current)
+  - [x] Create BlockingSystem class for managing blocks
+  - [x] Implement high/low blocking system
+  - [x] Add guard meter with recovery
+  - [x] Create guard break mechanics
+  - [x] Support different block types (standing, crouching)
+  - [x] Block stun and push back effects
+  - [x] Add unit tests for blocking system
+- [x] Rework and formalize system interfaces (Date: Current)
+  - [x] Create IAttackSystem and IBlockingSystem interfaces
+  - [x] Update implementation classes to follow interface contracts
+  - [x] Refactor tests to work with Vitest instead of Jest
+  - [x] Fix bugs in system implementations
+- [x] Design damage scaling system (Date: Current)
+  - [x] Create IDamageScalingSystem interface
+  - [x] Implement DamageScalingSystem class with configurable scaling rules
+  - [x] Add attack-specific scaling based on attack types
+  - [x] Implement repeated move penalty system
+  - [x] Create temporary modifier system for special conditions
+  - [x] Integrate damage scaling with ComboSystem
+  - [x] Add comprehensive unit tests for damage scaling
+- [x] Add round system (Date: Current)
+  - [x] Create IRoundSystem interface
+  - [x] Implement RoundSystem class with round management
+  - [x] Integrate with UIManager and RoundIndicator
+  - [x] Add match win detection
+  - [x] Handle round timers and time expiry
+  - [x] Support configurable round counts
+  - [x] Add comprehensive unit tests for round system
+
+## Discovered During Work
+
+- [ ] Need to decide on sprite sheet format and animation standards
+- [ ] May need to implement control remapping system
+- [ ] Consider implementing rollback netcode for online play
+- [ ] Need to research optimal collision detection approach for fighting games
+- [ ] Consider adding training mode features
+- [x] Need to carefully structure audio service for proper testing
+- [x] Should add unit tests for all character components
+- [x] Create unit tests for UI components
+- [x] Need to implement game state transitions for round system
+- [x] Consider adding victory/defeat screens
+
+## Backlog
+
+- [ ] Online multiplayer functionality
+- [ ] Mobile/touch controls
+- [ ] Additional characters
+- [ ] Story mode
+- [ ] Advanced AI for CPU opponents
+- [ ] Achievements system
+- [ ] Unlockable content
+- [ ] Alternative game modes
+- [ ] Replay system
+- [ ] Tournament mode
